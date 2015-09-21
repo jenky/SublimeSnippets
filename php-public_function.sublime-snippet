@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:name}(${2:\$param})
+{
+    ${3:\$this}
+}
+]]></content>
+    <tabTrigger>pufc</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
