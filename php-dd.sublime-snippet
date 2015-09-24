@@ -1,9 +1,7 @@
 <snippet>
     <content><![CDATA[
-echo '<pre>';
-print_r(\$${1:results});
-echo '</pre>';
+dd(\$${1:results});
 ]]></content>
-    <tabTrigger>pre</tabTrigger>
+    <tabTrigger>dd</tabTrigger>
     <scope>source.php</scope>
 </snippet>
