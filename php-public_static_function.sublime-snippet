@@ -2,10 +2,12 @@
     <content><![CDATA[
 /**
  * 
+ * 
+ * @return 
  */
 public static function ${1:name}(${2:\$param})
 {
-    ${3:\$this}
+    ${3}
 }
 ]]></content>
     <tabTrigger>pusfc</tabTrigger>
