@@ -10,6 +10,6 @@ protected static function ${1:name}(${2:\$param})
     ${3}
 }
 ]]></content>
-    <tabTrigger>pusfc</tabTrigger>
+    <tabTrigger>prsfc</tabTrigger>
     <scope>source.php</scope>
 </snippet>
