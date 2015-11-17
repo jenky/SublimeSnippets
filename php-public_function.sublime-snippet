@@ -1,15 +1,10 @@
 <snippet>
     <content><![CDATA[
-/**
- * 
- * 
- * @return 
- */
 public function ${1:name}(${2:\$param})
 {
     ${3}
 }
 ]]></content>
-    <tabTrigger>pufc</tabTrigger>
+    <tabTrigger>puf</tabTrigger>
     <scope>source.php</scope>
 </snippet>

@@ -1,15 +1,10 @@
 <snippet>
     <content><![CDATA[
-/**
- * 
- * 
- * @return 
- */
 protected function ${1:name}(${2:\$param})
 {
     ${3}
 }
 ]]></content>
-    <tabTrigger>prfc</tabTrigger>
+    <tabTrigger>prf</tabTrigger>
     <scope>source.php</scope>
 </snippet>
