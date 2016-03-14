@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 Schema::table('${1:table}', function (Blueprint \$table) {
-    ${2:\$table->}
+    \$table->${2:string(${3})};
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
