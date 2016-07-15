@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+\$.ajax({
+    url: '${1:url}',
+    type: '${2:method}',
+    data: ${3:\{\}},
+    dataType: '${4:json}',
+    success: function(res) {
+        ${5}
+    }
+});
+]]></content>
+    <tabTrigger>$ax</tabTrigger>
+    <scope>source.js,source.js.embedded.html</scope>
+</snippet>
